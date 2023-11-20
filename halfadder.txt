@@ -5,7 +5,7 @@ qc.cx(0,1)
 qc.draw()
 qca=QuantumCircuit(4,2)
 
-qca.cx(0,1)
+qca.x(0)
 qca.x(1)
 qca.cx(0,2)
 qca.cx(1,2)
